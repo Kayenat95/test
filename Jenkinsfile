@@ -3,17 +3,17 @@ pipeline{
        stages{
              stage("Cleaning stage"){
                    steps{
-        sh "mvn clean"
+        sh 'echo "Hello World"'
         }
     }
         stage("Testing stage"){
                    steps{
-        sh "mvn test"
+        sh 'echo "Hello World"'
         }
     }
         stage("Packaging stage"){
                    steps{
-        sh "mvn test"
+        sh 'echo "Hello World"'
         }
     }  
  }
